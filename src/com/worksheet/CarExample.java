@@ -9,7 +9,7 @@ public class CarExample {
 public void brake() {
 	System.out.println("Brake in Car example");
 }
-public static void main (String[] args)
+/**public static void main (String[] args)
 {
 	Car car = new Car();
 	
@@ -22,6 +22,6 @@ public static void main (String[] args)
 }
 public static void aMethod(Car car) {
 car.setSpeed(300);	
-}
+}**/
 }
 	
