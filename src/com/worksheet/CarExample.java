@@ -1,7 +1,5 @@
 package com.worksheet;
 
-import com.basic.Car;
-
 public class CarExample {
 	public CarExample() {
 		System.out.println("Cars");
