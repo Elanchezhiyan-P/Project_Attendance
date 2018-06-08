@@ -51,5 +51,9 @@ public class Student {
 		return "Student studentId=" + studentId + ", firstName=" + firstName + ", lastname=" + lastname + ", gender="
 				+ gender + ", branch=" + branch + ", dept=" + dept + "";
 	}
+	public void displayInformation() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
