@@ -4,13 +4,15 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import sun.net.www.URLConnection;
+
 public class ExceptionExample {
 	
 	public ExceptionExample() {
 		try
 		{
 			URL url = new URL("http://www.google.com");
-			java.net.URLConnection connection = url.openConnection();
+			Object connection = url.openConnection();
 			System.out.println("URL Connection");
 		}
 		catch(MalformedURLException e)
